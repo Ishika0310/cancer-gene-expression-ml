@@ -132,3 +132,10 @@ cancer-gene-expression-ml/
 ├── .gitignore
 ├── README.md
 └── requirements.txt
+```
+## Limitations
+
+- The dataset contains a relatively small number of samples compared with the number of gene features.
+- The analysis uses a single TCGA-derived dataset and does not include external validation.
+- The reported gene features are dataset-specific feature IDs rather than validated biological gene markers.
+- The model is intended for research and educational purposes and should not be interpreted as a clinical diagnostic tool.
